@@ -4,7 +4,7 @@ import json
 from NeuralNetwork_of_Diya import word_list , tokenize 
 from Diya_Processing import NeuralNetwork
 from Diya_Speak import say
-from Tasks_of_Diya import  NonInputExecution , InputExecution
+from Tasks_of_Diya import  NonInputExecution , InputExecution, YoutubeSearch
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 with open('intents.json', 'r') as json_data:
     intents = json.load(json_data)
@@ -52,6 +52,8 @@ def call_diya():
                     InputExecution(reply,result)
                 elif "google" in reply:
                     InputExecution(reply,result)
+                elif "youtube" in reply:
+                    YoutubeSearch(result)
                 else:
                     say(reply)
     else:

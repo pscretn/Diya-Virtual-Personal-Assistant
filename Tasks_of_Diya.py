@@ -34,3 +34,7 @@ def InputExecution(tag,query):
         query=str(query).replace("google","")
         query=query.replace("search","")
         pywhatkit.search(query)
+
+def YoutubeSearch(term):
+    pywhatkit.playonyt(term)
+    say("Here is what I found")

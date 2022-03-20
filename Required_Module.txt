@@ -8,4 +8,3 @@ pyttsx3  --> pip install pyttsx3
 wikipedia  --> pip install wikipedia
 pywhatkit  --> pip install pywhatkit
 random 
-datetime

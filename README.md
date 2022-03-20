@@ -23,7 +23,8 @@ pip install numpy
 ```
 pip install SpeechRecognition
 ```
-* pydub  ```
+* pydub  
+```
 pip install pydub
 ```
 * pyttsx3  

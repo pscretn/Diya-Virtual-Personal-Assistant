@@ -1,0 +1,67 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hi","hai","hello diya","hey","diya"
+            ],
+            "responses":["hello","How are you ?","Hi there","Hey there"
+            ]
+        },
+        {
+            "tag":"breakup",
+            "patterns":["bye","goodbye","see you later","see you","exit","quit","stop","end"
+            ],
+            "responses":["Bye","Bye, take care","Bye, see you soon"
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","how you","how are you doing","are you good ?"
+            ],
+            "responses":["I am fine, thanks for asking","I am good","perfect","cool","I am alright"
+            ]
+        },
+        {
+            "tag":"identity",
+            "patterns":["who are you ?","what is your name","who the hell are you","are you a bot"
+            ],
+            "responses":["Myself Diya your personal assistant developed by p s cretn","My Developer named me D I Y A  diya , you can also call me diya","I am not your Alexa, I am not your siri, I am not your google assistant, but you can call me diya"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["what is the time now ?","time ? ","what's the time ?"
+            ],
+            "responses":["time"
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":["what is the date today ?","date ? ","what's the date ?"
+            ],
+            "responses":["date"
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":["which is day today ?","day ? ","what's today ?"
+            ],
+            "responses":["day"
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","about","what is ","where is ","when is ","wikipedia"
+            ],
+            "responses":["wikipedia"
+            ]
+        },
+        {
+            "tag":"google", 
+            "patterns":["google search","search","google"
+            ],
+            "responses":["google"
+            ]
+        }
+    ]
+}

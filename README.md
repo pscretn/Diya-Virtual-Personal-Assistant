@@ -4,13 +4,37 @@ Diya is Artifical intelligent virtual personal assistant developed in python , w
 * random 
 * datetime
 * flask 
-` pip install flask`
+```
+ pip install flask
+ ```
 * nltk 
- `pip install nltk`
-* torch  --> pip install nltk
-* numpy  --> pip install numpy
-* speech recognition  --> pip install SpeechRecognition
-* pydub  --> pip install pydub
-* pyttsx3  --> pip install pyttsx3
-* wikipedia  --> pip install wikipedia
-* pywhatkit  --> pip install pywhatkit
+ ```
+ pip install nltk
+ ```
+* torch  
+```
+pip install nltk
+```
+* numpy   
+```
+pip install numpy
+```
+* speech recognition  
+```
+pip install SpeechRecognition
+```
+* pydub  ```
+pip install pydub
+```
+* pyttsx3  
+```
+pip install pyttsx3
+```
+* wikipedia  
+```
+pip install wikipedia
+```
+* pywhatkit  
+```
+pip install pywhatkit
+```
